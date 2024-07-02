@@ -10,3 +10,4 @@
 # Include .ipynb and .py files
 !*.ipynb
 !*.py
+!*.pkl
