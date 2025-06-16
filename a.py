@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome()
 driver.get("https://x.com/")
-time.sleep(3 * 60)
 
 #  پیدا کردن و کلیک کردن تب تویفیکیشن
 def press_notification_tab():

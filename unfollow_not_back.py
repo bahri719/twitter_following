@@ -4,12 +4,7 @@ import sqlite3
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
-# from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.chrome.options import Options
-# from selenium.webdriver.chrome.service import Service
-# from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
-# from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome()
 driver.get("https://x.com/")
@@ -243,7 +238,7 @@ if __name__ == '__main__':
             continue
 
         if main():
-            time.sleep(60)
+            time.sleep(5)
         else:
             time.sleep(60)
             driver.refresh()
